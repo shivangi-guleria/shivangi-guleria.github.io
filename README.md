@@ -1,3 +1,3 @@
 # shivangi-guleria.github.io
- Personal Website/n
+ Personal Website
 work in progress...
