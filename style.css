@@ -1,7 +1,14 @@
+body{
+	margin: 50px;
+}
+
 #main{
 	color: #4d274b;
 	padding: 10px;
 }
 img {
   border-radius: 50%;
+}
+li{
+	display: inline;
 }
