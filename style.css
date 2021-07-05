@@ -1,6 +1,15 @@
 body{
 	margin: 50px;
 }
+header{
+	height: 70vh;
+	opacity: 0.5;
+	background-image: url(img/workstation.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 #main{
 	color: #4d274b;
