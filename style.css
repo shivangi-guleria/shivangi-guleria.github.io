@@ -1,23 +1,94 @@
 body{
-	margin: 50px;
+	margin: 0px;
+	font-family: sans-serif;
 }
 header{
-	height: 70vh;
-	opacity: 0.5;
-	background-image: url(img/workstation.jpg);
+	height: 60vh;
+	opacity: 0.8;
+	background-image: url(img/Asset.jpg);
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-#main{
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: gray;
+    /*border-bottom: 1px solid white;*/
+}
+
+
+.text-center{
+	text-align: center;
+}
+.opaque{
+	opacity: 1;
+}
+
+#social-container{
+    margin-top: 20vh;
+}
+
+#name-intro{
+	color: white;
+	font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*#main{
 	color: #4d274b;
 	padding: 10px;
 }
-img {
-  border-radius: 50%;
+*/
+
+#About{
+    height: auto;
+    width: 100%;
+    position: relative;
 }
-li{
-	display: inline;
+#my-img{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -10vh;
+}
+
+#my-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 45%;
+    border: 5px solid #FFF;
+    box-shadow: 1px 1px 10px 1px #3faddf inset, 2px 2px 10px 3px #AAAAAA;
+
 }
